@@ -1,0 +1,15 @@
+{
+    "root":"/work/u4851006/TrackingDataset/dataset",
+    "train":
+    {
+        "mot17":"./data/MOT20_train_half"
+    },
+    "test_emb":
+    {
+        "mot17":"./data/MOT20_train_half"
+    },
+    "test":
+    {
+        "mot17":"./data/MOT20_train_half"
+    }
+}
