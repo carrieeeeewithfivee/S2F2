@@ -4,7 +4,7 @@ Detection, tracking, and forecasting from raw images in an end-to-end network.
 
 Anonymous github for ECCV2022.
 
-![image](picture or gif url)
+![image](https://github.com/carrieeeeewithfivee/S2F2/blob/master/combine.gif)
 
 ## Getting Started
 ### Installing
