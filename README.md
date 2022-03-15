@@ -4,7 +4,7 @@ Detection, tracking, and forecasting from raw images in an end-to-end network.
 
 Anonymous github for ECCV2022.
 
-![image](https://github.com/carrieeeeewithfivee/S2F2/blob/master/combine.gif)
+![image](https://imgur.com/3yHJFI0)
 
 ## Getting Started
 ### Installing
@@ -40,6 +40,3 @@ sh experiments/forecast_mot17.sh
 ```
 to train on mot17. Change the .sh files for different settings.
 Validation commands are also written in the .sh files. Navigate to src/ to validate.
-
-## More to come ...
-Pretrained models and more instructions will be updated soon ...
