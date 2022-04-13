@@ -40,3 +40,5 @@ sh experiments/forecast_mot17.sh
 ```
 to train on mot17. Change the .sh files for different settings.
 Validation commands are also written in the .sh files. Navigate to src/ to validate.
+
+Pre-trained parameters are at [Link](https://drive.google.com/drive/folders/1b7CyxfRG6HPOFVlMt0LHPN2QUHrQH7Db?usp=sharing)
