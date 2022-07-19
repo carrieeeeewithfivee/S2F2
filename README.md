@@ -1,14 +1,10 @@
 # S2F2: Single-Stage Flow Forecasting for Future Multiple Trajectories Prediction
-
-Detection, tracking, and forecasting from raw images in an end-to-end network. 
-
-Anonymous github for ECCV2022.
-
+By Yu-Wen Chen, Hsuan-Kung Yang, Chu-Chi Chiu and Chun-Yi Lee. The code repo is owned and maintained by Yu-Wen Chen.
 ![image](https://github.com/carrieeeeewithfivee/S2F2/blob/master/combine.gif)
-
+## Abstract
+In this work, we present a single-stage framework, named S2F2, for forecasting multiple human trajectories from raw video images by predicting future optical flows. S2F2 differs from the previous two-stage approaches in that it performs detection, Re-ID, and forecasting of multiple pedestrians at the same time.  The architecture of S2F2 consists of two primary parts: (1) a context feature extractor responsible for extracting a shared latent feature embedding for performing detection and Re-ID, and (2) a forecasting module responsible for extracting a shared latent feature embedding for forecasting. The outputs of the two parts are then processed to generate the final predicted trajectories of pedestrians. Unlike previous approaches, the computational burden of S2F2 remains consistent even if the number of pedestrians grows.
 ## Getting Started
 ### Installing
-
 * Tested on Cuda10, Python 3.7.10, Pytorch 1.2.0
 * We use MOT17 and MOT20 as training and validation data. Refer to the official webpage of MOT challenge to download the data. After downloading, you should prepare the data in the following structure:
 ```
@@ -50,4 +46,7 @@ to start training staticMOT, or
 sh experiments/forecast_mot17.sh 
 ```
 to train on mot17. Change the .sh files for different settings.
-Validation commands are also written in the .sh files. Validatation datasets need to be generated according to S2F2/src/data/MOT_static_val_half and S2F2/src/data/MOT17_val_half/. Parsing files directly has not been implemented yet. 
+Validation commands are also written in the .sh files. Validatation datasets need to be generated according to S2F2/src/data/MOT_static_val_half and S2F2/src/data/MOT17_val_half/.
+
+## Acknowledgement
+* The detection and Re-ID portion of our code is largely borrowed from [FairMOT](https://github.com/ifzhang/FairMOT). Thanks for their wonderful works.
